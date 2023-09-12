@@ -11,10 +11,9 @@
 int numLength(int num)
 {
 	int length = 0;
-	
 	if (!num)
 		return (1);
-	
+
 	while (num)
 	{
 		num = num / 10;
@@ -63,6 +62,5 @@ int main(void)
 		else
 			printf("\n");
 	}
-
 	return (0);
 }

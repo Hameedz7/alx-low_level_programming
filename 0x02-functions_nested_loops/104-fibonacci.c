@@ -1,11 +1,14 @@
 #include "main.h"
 
 
-/**
- * main _ The main function
- * 1 and 2, seperated by a comma
- * Return: 0.
- */
+/** 
+* numLength - returns the length of string
+*
+* @num: operand number
+*
+* Return: number of digits
+*/
+
 int numLength(int num)
 {
 	int length = 0;

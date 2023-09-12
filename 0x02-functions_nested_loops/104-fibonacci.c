@@ -14,7 +14,7 @@ int numLength(int num)
 		return (1);
 	while (num)
 	{
-		num= num / 10;
+		num = num / 10;
 		length += 1;
 	}
 

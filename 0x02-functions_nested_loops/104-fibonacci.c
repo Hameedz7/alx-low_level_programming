@@ -1,7 +1,6 @@
 #include "main.h"
 
-
-/** 
+/**
 * numLength - returns the length of string
 *
 * @num: operand number
@@ -23,7 +22,6 @@ int numLength(int num)
 	}
 
 	return (length);
-
 }
 
 /**
@@ -32,7 +30,7 @@ int numLength(int num)
  * Description: prints the first 98 Fibonacci numbers
  * 	starting with 1 and 2 followed by a new line
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
@@ -42,15 +40,16 @@ int main(void)
 	for (count = 1; count <= 98; count++)
 	{
 		if (flo > 0)
-		printf("%lu", flo);
+			printf("%lu", flo);
 		initial0s = numLength(mx) - 1 - numLength(f1);
+
 		while (flo > 0 && initial0s > 0)
 		{
 			printf("%d", 0);
 			initial0s--;
 		}
 
-		printf ("%lu", f1);
+		printf("%lu", f1);
 
 		sum = (f1 + f2) % mx;
 		sumo = flo + f20 + (f1 + f2) / mx;
